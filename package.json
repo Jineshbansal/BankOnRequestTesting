@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "ethers": "^6.13.4",
+    "@rainbow-me/rainbowkit": "^2.2.0",
+    "@requestnetwork/epk-signature": "^0.9.1",
+    "@requestnetwork/request-client.js": "^0.50.0",
+    "@requestnetwork/web3-signature": "^0.8.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
     "my-app": "file:",
     "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wagmi": "^2.13.2"
   },
   "devDependencies": {
+    "@types/node": "22.10.1",
+    "@types/react": "18.3.12",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",
