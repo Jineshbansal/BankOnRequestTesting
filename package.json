@@ -9,15 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@rainbow-me/rainbowkit": "^2.2.0",
-    "@requestnetwork/epk-signature": "^0.9.1",
-=======
     "bankonrequest": "file:",
     "@rainbow-me/rainbowkit": "^2.2.0",
     "@requestnetwork/epk-signature": "^0.9.1",
     "@requestnetwork/payment-processor": "^0.48.0",
->>>>>>> 24847e4 (createRequest added)
     "@requestnetwork/request-client.js": "^0.50.0",
     "@requestnetwork/web3-signature": "^0.8.1",
     "dotenv": "^16.4.5",
